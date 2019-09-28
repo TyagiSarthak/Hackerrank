@@ -15,7 +15,7 @@ def compareTriplets(a, b):
             Bob+=1
         elif a[i]>b[i]:#If Alice get more rating than Bob.
             Alice+=1
-    return [Alice,Bob]#Return the array [(Alice score),(Bob score)]
+    return [Alice,Bob]#Return the array [(Alice score),(Bob score)].
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
